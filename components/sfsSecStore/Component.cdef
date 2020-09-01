@@ -1,0 +1,20 @@
+bundles:
+{
+    file:
+    {
+        [r] libComponent_sfsSecStore.so /lib/
+    }
+}
+
+requires:
+{
+    component:
+    {
+        $LEGATO_UTIL_PA
+    }
+
+    lib:
+    {
+        libComponent_sfsSecStore.so
+    }
+}
